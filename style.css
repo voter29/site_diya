@@ -1,0 +1,67 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(210, 180, 140);
+    padding: 0.30em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(147, 115, 62);
+    align-self: center;
+}
+
+th {
+    border: 1px solid #9c8862;
+    background-color: rgb(220, 190, 150); ;
+    align-content: center;
+    width: 200px;
+    font-size: 115% ;
+}
+
+tr {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    width: fit-content;
+}
+
+td {
+    padding: 10px 10px;
+    align-content: center; 
+}
+
+td:hover {
+    background-color: #f1e8d7;
+}
+
+th:hover {
+    background-color: #f1e8d7;
+}
+
+#dress , #t-shirts , #trousers, #skirts{
+    background-size: contain;
+    width: 275px;
+    aspect-ratio: 1 / 1;
+}
+
+#popup , #t-shirt , #trouser , #skirt {
+    align-content: center;
+    width: 275px;
+}
+
+#b1 {
+    align-self: flex-start;
+}
+
+#link:hover {
+    color: hotpink;
+    text-decoration: none;
+    
+}
